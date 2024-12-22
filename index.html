@@ -17,16 +17,16 @@
         
         <section id="controls">
             <h2>Graph Editor</h2>
-            <small id="fromNodeHelp">Single character node (e.g., A, B)</small>
+            <h3 id="fromNodeHelp">Enter City Name</h3>
             <form id="addEdgeForm" aria-label="Add Edges to Graph">
              
                
-                <input type="text" id="fromNode" required placeholder="From Node" maxlength="1" aria-describedby="fromNodeHelp">
+                <input type="text" id="fromNode" required placeholder="From City" maxlength="1" aria-describedby="fromNodeHelp">
                 
                
                 <br>
                 
-                <input type="text" id="toNode" required placeholder="TO Node" maxlength="1">
+                <input type="text" id="toNode" required placeholder="TO City" maxlength="1">
                 <br>
                 
                 <input type="number" id="cost" min="1" required placeholder="Enter Cost ">
@@ -36,10 +36,10 @@
             <h2>Search Controls</h2>
             <div id="search-controls" aria-label="Graph Search Settings">
                 
-                <input type="text" id="startNode" required placeholder="Start Node" maxlength="1">
+                <input type="text" id="startNode" required placeholder="Starting City" maxlength="1">
                 <br>
                 
-                <input type="text" id="goalNode" required placeholder="Goal Node" maxlength="1">
+                <input type="text" id="goalNode" required placeholder="Goal City" maxlength="1">
                 <br>
                 
                 <select id="algorithm" required>
